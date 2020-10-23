@@ -20,7 +20,7 @@ for i in range(50):
             titlesplit.pop(-1)
             title = " ".join(titlesplit) + "…"
     anditem = anditems[randrange(len(anditems))-1]
-    time = str(randrange(1,13)) + ":" + str(randrange(60))
+    time = str(randrange(1,13)) + ":" + str(randrange(10,60))
     month = months[randrange(len(months))-1]
     date = str(randrange(1,28))
     template = 'You checked out "%s" %sfrom the Libraries.\nDue: %spm, %s %s.\ngo.ncsu.edu/see-checkouts'\
